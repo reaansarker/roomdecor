@@ -1,5 +1,5 @@
 .header {
-  padding: 40px;
+  padding: 30px;
   text-align: center;
   background: #FDF9FF;
   color: black;
@@ -18,7 +18,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 /* Change the color of links on hover */
@@ -29,9 +29,10 @@
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #E8DAEF;
+    background-color: #DBC8DF;
     color: black;
 }
+
 img {padding: 10px}
 
 #imagesMain {
@@ -41,28 +42,38 @@ img {padding: 10px}
   margin-top: 20px;
   text-align: center;
 }
+
 #imagesMain img {
   height: 350px;
   width: 350px;
   vertical-align: middle;
 }
 
-h1, p{
+h1, p, h2, div{
+  font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
-
-}
-
-div{
-  text-align: center;
-  /* font-family: 'Ruslan Display', cursive; */
-  /* font-family: 'MedievalSharp', cursive; */
-  /* font-family: 'Roboto', sans-serif; */
-  font-family: 'Open Sans', sans-serif;
-  /* font-family: 'Cookie', cursive; */
-
-
 }
 
 body {
   background-color: #FDF9FF;
+}
+
+h1{
+  font-family: 'Seaweed Script', cursive;
+  font-family: 'Euphoria Script', cursive;
+  font-size: 100px;
+  background-color: #DBC8DF;
+}
+
+h2{
+  font-family: 'Lobster Two', cursive;
+  font-size: 40px;
+  /* font-family: 'Pacifico', cursive; */
+
+  /* font-family: 'Seaweed Script', cursive; */
+  /* font-family: 'Euphoria Script', cursive; */
+  /* font-family: 'Amatic SC', cursive; */
+  /* font-family: 'Tangerine', cursive; */
+  /* font-family: 'Julius Sans One', sans-serif; */
+  /* font-family: 'Forum', cursive; */
 }
