@@ -33,14 +33,25 @@
     background-color: #DBC8DF;
     color: black;
 }
+
+h3 {
+  font-family: 'Lobster Two', cursive;
+  font-size: 35px;
+}
+
 img {
   padding: 10px;
 }
 body {
   background-color: #FDF9FF;
   padding: 30px;
-  background-image: url("giphy.gif");
-  background-color: #cccccc;
+
+}
+
+.right {
+  float: right;
+  width: 940px;
+  padding-top: 10px;
 }
 
 h1 {
@@ -52,6 +63,10 @@ h1 {
 h2{
   font-family: "Lobster Two",cursive;
   font-size: 40px;
+}
+
+#image1{
+float: left;
 }
 
 /*p{
@@ -68,5 +83,6 @@ h2{
 
 p,div  {
   text-align: center;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Crimson Text', serif;
+  font-size: 20px;
 }
