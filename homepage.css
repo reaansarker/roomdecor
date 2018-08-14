@@ -1,4 +1,12 @@
 /* Add a black background color to the top navigation */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #FDF9FF;
+  color: black;
+  font-size: 30px;
+}
+
 .topnav {
     background-color: #333;
     overflow: hidden;
@@ -9,31 +17,44 @@
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 10px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #E8DAEF;
+    background-color: #DBC8DF;
     color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #E8DAEF;
+    background-color: #DBC8DF;
     color: black;
 }
-
-h1 {font-style: Snell Roundhand, cursive}
-
+img {
+  padding: 10px;
+}
 body {
   background-color: #FDF9FF;
   padding: 30px;
+  background-image: url("giphy.gif");
+  background-color: #cccccc;
 }
 
-p{
+h1 {
+  font-family: 'Seaweed Script', cursive;
+  font-family: 'Euphoria Script', cursive;
+  font-size: 100px;
+  background-color: #DBC8DF;
+}
+h2{
+  font-family: "Lobster Two",cursive;
+  font-size: 40px;
+}
+
+/*p{
   font-size: 17px;
   font-family: 'Seaweed Script', cursive;
   font-family: 'Euphoria Script', cursive;
@@ -42,20 +63,10 @@ p{
   font-family: 'Julius Sans One', sans-serif;
   font-family: 'Forum', cursive;
 }
+*/
 
-img {float: left; padding-right: 10px}
-P { text-align: center }
-H2 { text-align: center }
 
-.header {
-  padding: 40px;
+p,div  {
   text-align: center;
-  background: #FDF9FF;
-  color: black;
-  font-size: 30px;
-}
-h1 {
-  font-family: 'Seaweed Script', cursive;
-  font-family: 'Euphoria Script', cursive;
-  font-size: 100px;
+  font-family: "Source Sans Pro", sans-serif;
 }
